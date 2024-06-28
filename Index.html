@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contactform.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Webapprise</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+<script src="nav.js"></script>
+
+
+<div class="slide">
+    <div class="slider">
+        <!-- fade css -->
+        <div class="myslide fade">
+            <div class="txt">
+                <h1>IMAGE 1</h1>
+                <p>Web Developer<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptates unde ratione sunt tenetur nemo facere nihil aut voluptatem eum!</p>
+            </div>
+            <img src="./Image/img1.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="myslide fade">
+            <div class="txt">
+                <h1>IMAGE 2</h1>
+                <p>Web Developer<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aperiam harum ea possimus quas eius voluptate fugiat facilis, iusto praesentium?</p>
+            </div>
+            <img src="./Image/img2.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="myslide fade">
+            <div class="txt">
+                <h1>IMAGE 3</h1>
+                <p>Web Developer<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iusto nobis expedita qui dolores ut commodi cupiditate maiores, inventore enim.</p>
+            </div>
+            <img src="./Image/img3.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="myslide fade">
+            <div class="txt">
+                <h1>IMAGE 4</h1>
+                <p>Web Developer<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam suscipit quasi, nulla fugiat quaerat est mollitia molestias veniam molestiae iure.</p>
+            </div>
+            <img src="./Image/img4.jpg" style="width: 100%; height: 100%;">
+        </div>
+        
+        <div class="myslide fade">
+            <div class="txt">
+                <h1>IMAGE 5</h1>
+                <p>Web Developer<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vero quis officia alias reiciendis consequatur! Enim at exercitationem fugiat ad?</p>
+            </div>
+            <img src="./Image/img5.jpg" style="width: 100%; height: 100%;">
+        </div>
+        <!-- /fade css -->
+        
+        <!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--         
+        <div class="dotsbox" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div> -->
+        <!-- /onclick js -->
+    </div>
+    <script src="slider.js"></script>
+</div>
+
+<div class="hero" id="about">
+    <div class="heading">
+        <h1>About Us</h1>
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h2>Welcome To our Website</h2>
+            <p>Discover the latest trends and innovations in technology, design and more. Our team of experts bring you the best content and insights to help you stay ahead of the curve.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+        <div class="hero-image">
+            <img src="./Image/istockphoto-1425221653-170667a.webp" alt="about">
+        </div>
+    </div>
+</div>
+
+<div class="container2" id="services">
+    <h1 class="section-heading">Our Services</h1>
+    <div class="services-cards">
+        <div class="services-card">
+            <i class="fas fa-desktop"></i>
+            <h2>Web Design</h2>
+            <p>We provide end-to-end web app development services designed exclusively to solve your unique business challenges. At Demaze Technologies, we offer custom web apps, portals, e-commerce and SaaS development.</p>
+        </div>
+        <div class="services-card">
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>We provide end-to-end web app development services designed exclusively to solve your unique business challenges. At Demaze Technologies, we offer custom web apps, portals, e-commerce and SaaS development.</p>
+        </div>
+        <div class="services-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h2>Mobile App Development</h2>
+            <p>We deliver next-generation iOS, Android and Flutter applications to meet the most demanding customer requirements. Our skilled team design and develop custom feature-packed apps across various business segments.</p>
+        </div>
+    </div>
+</div>
+
+<section class="testimonials">
+    <h1 class="section-heading">Testimonials</h1>
+    <div class="testimonials-container">
+        <div class="testimonial active">
+            <img src="./Image/images.jpeg" alt="John Doe" class="testimonial-image">
+            <p class="testimonial-text">"This product exceeded my expectations. It's user-friendly and efficient!"</p>
+            <h3 class="testimonial-author">John Doe</h3>
+        </div>
+        <div class="testimonial">
+            <img src="./Image/round_profil_picture_before_.webp" alt="Jane Smith" class="testimonial-image">
+            <p class="testimonial-text">"I've tried many similar products, but this one stands out. Highly recommended!"</p>
+            <h3 class="testimonial-author">Jane Smith</h3>
+        </div>
+        <div class="testimonial">
+            <img src="./Image/istockphoto-1303206644-612x612.jpg" alt="Bob Johnson" class="testimonial-image">
+            <p class="testimonial-text">"The customer support is outstanding. They went above and beyond to help me."</p>
+            <h3 class="testimonial-author">Bob Johnson</h3>
+        </div>
+        <div class="testimonial-navigation">
+            <button class="nav-btn" onclick="changeTestimonial(-1)">Previous</button>
+            <button class="nav-btn" onclick="changeTestimonial(1)">Next</button>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2 class="contact-heading">Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject:</label>
+                <input type="text" id="subject" name="subject" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <h3>Webapprise</h3>
+            <p>1120,zion z1<br>Sindhu Bhavan Marg<br>Ahmedabad 380054</p>
+           
+        </div>
+        <div class="footer-center">
+            <h3>Quick Links</h3>
+            <p class="footer-quick-links">
+                <li class="footer-quick-links"><a href="#">Home</a></li>
+                <li class="footer-quick-links"><a href="#about">About</a></li>
+                <li class="footer-quick-links"><a href="#services">Services</a></li>
+                <li class="footer-quick-links"><a href="#contact">Contact</a></li>
+            </p>
+
+           
+             
+     
+        </div>
+        <div class="footer-right">
+            <div class="contact-info">
+                <p>Email: ajaypatel7403@gmail.com</p>
+                <p>Phone: +91 70165 08133</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script>
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll('.testimonial');
+    const testimonialInterval = 5000; // Change interval in milliseconds (5000ms = 5 seconds)
+
+    function changeTestimonial(direction) {
+        testimonials[currentTestimonial].classList.remove('active');
+        currentTestimonial = (currentTestimonial + direction + testimonials.length) % testimonials.length;
+        testimonials[currentTestimonial].classList.add('active');
+    }
+
+    function autoChangeTestimonial() {
+        changeTestimonial(1); // Move to the next testimonial
+    }
+
+    let testimonialTimer = setInterval(autoChangeTestimonial, testimonialInterval);
+
+    // Optionally, you can add event listeners to the buttons to reset the timer on manual navigation
+    document.querySelector('.nav-btn').addEventListener('click', function() {
+        clearInterval(testimonialTimer);
+        testimonialTimer = setInterval(autoChangeTestimonial, testimonialInterval);
+    });
+</script>
+</body>
+</html>
