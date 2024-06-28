@@ -10,7 +10,7 @@ This repository contains a single-page website created as part of a task. The we
 - [Contact](#contact)
 
 ## Demo
-You can view a live demo of the website [here](#https://webapprise-task.netlify.app/).
+You can view a live demo of the website [here](https://webapprise-task.netlify.app/).
 
 ## Features
 - **Responsive Design:** Optimized for various screen sizes including desktops, tablets, and mobile devices.
